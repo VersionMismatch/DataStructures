@@ -10,6 +10,7 @@
 		9CC289851A6775840096B5CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC289841A6775840096B5CA /* main.m */; };
 		9CC2898D1A6775DB0096B5CA /* DSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2898C1A6775DB0096B5CA /* DSNode.m */; };
 		9CC289901A67766D0096B5CA /* SLList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2898F1A67766D0096B5CA /* SLList.m */; };
+		9CC289961A6E24D10096B5CA /* TNTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC289951A6E24D10096B5CA /* TNTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		9CC2898C1A6775DB0096B5CA /* DSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSNode.m; sourceTree = "<group>"; };
 		9CC2898E1A67766D0096B5CA /* SLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLList.h; sourceTree = "<group>"; };
 		9CC2898F1A67766D0096B5CA /* SLList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLList.m; sourceTree = "<group>"; };
+		9CC289941A6E24D10096B5CA /* TNTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNTree.h; sourceTree = "<group>"; };
+		9CC289951A6E24D10096B5CA /* TNTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				9CC289841A6775840096B5CA /* main.m */,
+				9CC289941A6E24D10096B5CA /* TNTree.h */,
+				9CC289951A6E24D10096B5CA /* TNTree.m */,
 				9CC2898B1A6775DB0096B5CA /* DSNode.h */,
 				9CC2898C1A6775DB0096B5CA /* DSNode.m */,
 				9CC2898E1A67766D0096B5CA /* SLList.h */,
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC2898D1A6775DB0096B5CA /* DSNode.m in Sources */,
+				9CC289961A6E24D10096B5CA /* TNTree.m in Sources */,
 				9CC289901A67766D0096B5CA /* SLList.m in Sources */,
 				9CC289851A6775840096B5CA /* main.m in Sources */,
 			);
@@ -244,6 +250,7 @@
 				9CC2898A1A6775840096B5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
